@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+ 
+  <link rel="stylesheet" href="./style.css">
+
+ 
+</head>
+<body>  
+  <div class="login">
+    <h2>Login</h2>
+    <div id="login">
+        <div class="user-box">
+            <input type="email" id="login-email" autocomplete="off" required>
+            <label for="">Email</label>
+        </div>
+        <div class="user-box">
+            <input type="password" id="login-password" autocomplete="off" required>
+            <label for="">password</label>
+        </div>
+        <div class="forgot-pwd">
+            <h4>Forgot Password?</h4>
+        </div>
+        <div class="btn">
+            <button id="login-submit" onclick="module.login()">SUBMIT</button>
+            <!-- <div class="loader"></div> -->
+        </div>
+        <h4>Create Account? <a href="./signup.html"><span id="nav-to-signup">click</span></a></h4>
+        <script src="module.js"></script>
+        <script type="module" src="./app.js"></script>
+    </div>
+</div>
+
+
+
+
+
+
+
+</body>
+
+</html>

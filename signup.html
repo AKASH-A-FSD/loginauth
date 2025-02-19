@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup</title>
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+<body>
+    <div class="login">
+        <h2>Signup</h2>
+        <div id="signup">
+            <div class="user-box">
+                <input type="text" id="signup-username" autocomplete="off" required>
+                <label for="">Name</label>
+            </div>
+            <div class="user-box">
+                <input type="email" id="signup-email" autocomplete="off" required>
+                <label for="">Email</label>
+            </div>
+            <div class="user-box">
+                <input type="password" id="signup-password" autocomplete="off" required>
+                <label for="">password</label>
+            </div>
+            <div class="forgot-pwd">
+                <h4>Forgot Password?</h4>
+            </div>
+            <div class="btn">
+                <button id="signup-submit" onclick="module.signUp()">SUBMIT</button>
+                <div class="loader" style="display: none;"></div>
+            </div>
+            <h4>Already have Account? <a href="./index.html" target="_self"><span id="nav-to-login">click</span></a></h4>
+        </div>
+      </div>
+      <script src="./module.js"></script>
+      <script type="module" src="./app.js"></script>
+</body>
+</html>
