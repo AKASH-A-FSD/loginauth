@@ -67,7 +67,7 @@ signInWithEmailAndPassword(auth, email, password)
   .catch((error) => {
     const errorCode = error.code;
     const errorMessage = error.message;
-    alert("Wrong email or password. Try again!");
+    alert("No such user available. Please signup!!");
   });
 
 }
